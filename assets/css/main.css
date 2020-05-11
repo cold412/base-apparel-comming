@@ -21,6 +21,10 @@
   width: 25vw;
 }
 
+.container2 {
+  display: none;
+}
+
 .header {
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
@@ -90,5 +94,58 @@
 
 ::placeholder {
   padding-left: 1rem;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container2 {
+    display: block;
+  }
+  .image__mobile {
+    display: none;
+  }
+  .maincontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .maincontainer .container {
+    width: 50vw;
+  }
+  .maincontainer .container2 {
+    width: 50vw;
+  }
+  .maincontainer .container2 img {
+    width: 50vw;
+  }
+  .header {
+    font-size: 4rem;
+    text-align: start;
+    padding-top: 15vh;
+    padding-left: 8vw;
+  }
+  .text {
+    padding-left: 8vw;
+  }
+  .text p {
+    text-align: start;
+  }
+  .logo {
+    padding-top: 5vw;
+  }
+  .logo img {
+    width: 10vw;
+  }
+  .slider {
+    padding-top: 10vh;
+  }
+  .slider .inputField {
+    width: 50vh;
+  }
+  .slider img {
+    width: 8vh;
+    margin-left: 22vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */
