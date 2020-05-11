@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AFMD,wBAAwB",
+    "sources": [
+        "main.scss",
+        "1.tools/_fonts.scss",
+        "1.tools/_normalize.scss",
+        "1.tools/_vars.scss",
+        "2.basics/_bodyElements.scss",
+        "2.basics/_buttons.scss",
+        "2.basics/_colors.scss",
+        "2.basics/_links.scss",
+        "2.basics/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
