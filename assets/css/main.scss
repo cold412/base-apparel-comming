@@ -9,3 +9,70 @@
 
 
 /* @import '3.pages/' */
+
+.logo{
+    width: 100vw;
+    height: 10vh;
+    padding-top: 4vh;
+    padding-left: 8vw;
+    img{
+        width: 25vw;
+    }
+}
+
+
+.header{
+    text-transform: uppercase;
+    @include Font600;
+    font-size: 2.5rem;
+    text-align: center;
+        letter-spacing: 1rem;
+        padding-top: 3rem;
+        color: $DarkGrayishRed;
+    .fontColor{
+        @include Font300;
+        color: $DesaturatedRed;
+    }
+}
+
+
+
+
+.text{
+    @include Font400;
+    color: $DesaturatedRed;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.slider{
+    display: flex;
+    padding-top: 5vh;
+    justify-content: center;
+    .inputField{
+        width: 80vw;
+        height: 6vh;
+        border-radius: 1.5rem;
+    border: 1px solid $gray ;
+    }
+    img{
+        background-color: $DesaturatedRed;
+        height: 6vh;
+        position: absolute;
+        border-radius: 1.5rem;
+        width: 16vw;
+        margin-left: 15vh;
+    }
+}
+
+
+
+
+
+    ::placeholder{
+        padding-left: 1rem;
+    }

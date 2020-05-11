@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -5,5 +6,89 @@
           box-sizing: border-box;
 }
 
+/* ### Primary */
+/* ### Neutral */
+/* ### Gradients */
 /* @import '3.pages/' */
+.logo {
+  width: 100vw;
+  height: 10vh;
+  padding-top: 4vh;
+  padding-left: 8vw;
+}
+
+.logo img {
+  width: 25vw;
+}
+
+.header {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 1rem;
+  padding-top: 3rem;
+  color: #413a3a;
+}
+
+.header .fontColor {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #ce9797;
+}
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: #ce9797;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .inputField {
+  width: 80vw;
+  height: 6vh;
+  border-radius: 1.5rem;
+  border: 1px solid #aaa;
+}
+
+.slider img {
+  background-color: #ce9797;
+  height: 6vh;
+  position: absolute;
+  border-radius: 1.5rem;
+  width: 16vw;
+  margin-left: 15vh;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 1rem;
+}
+
+:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+::-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+::placeholder {
+  padding-left: 1rem;
+}
 /*# sourceMappingURL=main.css.map */

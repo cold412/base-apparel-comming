@@ -1,0 +1,22 @@
+
+
+$joseph: 'Josefin Sans', sans-serif;
+
+@mixin Font300 {
+   font-family: $joseph;
+   font-weight: 300;
+}
+
+
+@mixin Font400 {
+   font-family: $joseph;
+   font-weight: 400;
+}
+
+
+@mixin Font600 {
+   font-family: $joseph;
+   font-weight: 600;
+}
+
+
