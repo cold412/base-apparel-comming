@@ -118,6 +118,7 @@
   }
   .maincontainer .container2 img {
     width: 50vw;
+    height: 100vh;
   }
   .header {
     font-size: 4rem;
