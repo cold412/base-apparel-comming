@@ -72,7 +72,17 @@
 }
 
 
-
+#validation{
+    display: none;
+    justify-content: center;
+    width: 50vw;
+    padding-right: 10vw;
+    padding-top: 1vh;
+    p{
+        color: $SoftRed;
+        font-family: $joseph;
+    }
+}
 
 
     ::placeholder{

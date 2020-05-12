@@ -80,6 +80,21 @@
   margin-left: 15vh;
 }
 
+#validation {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+  padding-right: 10vw;
+  padding-top: 1vh;
+}
+
+#validation p {
+  color: #f96262;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 ::-webkit-input-placeholder {
   padding-left: 1rem;
 }
